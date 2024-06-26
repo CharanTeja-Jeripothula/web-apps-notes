@@ -20,7 +20,9 @@
 - git stash pop - applies the changes saved in the stash
 
 - git push --set-upstream origin <branch-name> - if we create a branch on the local repository but it doesnt exist on the remote repository then this command will create a branch on the remote repository and push all the commits between the branches
-- git push origin <branch-name> - if we create a branch 
+
+- git push origin <branch-name> - will push the current branch to the branch of the matching name in the remote repository
+
 
 # best practices
 
