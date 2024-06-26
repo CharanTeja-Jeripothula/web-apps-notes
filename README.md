@@ -50,3 +50,6 @@
 - merge the feature branch into the main branch
   (solve the conflicts emerged in conflict manager of vs code and complete the commit)
 - push the changes to the remote repository.
+
+
+$$ test from branch 3
