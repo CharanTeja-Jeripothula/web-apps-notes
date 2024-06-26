@@ -23,7 +23,22 @@
 
 # best practices
 
----This process is to be followed if we are given access as a collaborator to the original repo---
+## ---This process is to be followed if we are NOT given access as a collaborator to the original repo---
+
+- First fork the remote repository into your GITHUB account
+- Clone the forked repository to your local machine
+- Create a new branch for the feature you are working on
+- Make changes to the files in the branch
+- Commit the changes to the branch
+- checkout to main branch
+- fetch and merge all the latest commits from the original repo into your forked repo
+- Now, pull all the changes from your forked repository into the main branch head
+- merge the feature branch into the main branch in your local computer
+  (solve the conflicts emerged in conflict manager of vs code and complete the commit)
+- push the changes to the forked repository.
+- create a pull request from your forked repository to the original repository.
+
+## ---This process is to be followed if we are given access as a collaborator to the original repo---
 
 - First clone the remote repository into the local computer
 - Create a new branch for the feature you are working on
