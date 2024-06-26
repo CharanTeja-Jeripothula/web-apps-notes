@@ -54,8 +54,12 @@
 - push the changes to the remote repository.
 
 
-$$ test from main branch
+## Solving Merge Conflicts
+- Its always recommended to use merge conflict solver in Visual Studio Code
+- Otherwise, search for <<<<<<,=======,>>>>>> symbols in the files which suggest the conflicting parts of code. 
+- Then manually solve the conflicts.
+- After solving the conflicts, add the changes to the staging area and commit the changes. (":wq" is to be used to save and exit from the merge conflict editor in vim/hyper )
+- Push the changes to the remote repository.
 
 
-$$ test from branch 3
 
